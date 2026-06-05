@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Akash - Resume Maker & Marketing Specialist | USA Job Placement</title>
+
+  <meta name="description" content="Akash - Resume Maker & Marketing Specialist. US Bench Sales Recruiter helping USA candidates land their desired job in 30-45 days. Expert in ATS resumes, career advising, and LinkedIn outreach.">
+  <meta name="keywords" content="Akash, Resume Maker, Marketing Specialist, USA jobs, bench sales recruiter, ATS resume, career advising, Ahmedabad">
+  <meta name="author" content="Akash">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Akash - Resume Maker & Marketing Specialist">
+  <meta property="og:description" content="We help USA candidates get their desired job in 30-45 days. Resume optimization, US staffing, and career placement.">
+  <meta property="og:type" content="profile">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Akash",
+    "jobTitle": "Resume Maker & Marketing Specialist",
+    "email": "jscalesolutions@gmail.com",
+    "telephone": "+918233633213",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ahmedabad",
+      "addressCountry": "India"
+    },
+    "knowsAbout": [
+      "Resume Optimization", "ATS Resume Building", "US Bench Sales",
+      "Career Advising", "LinkedIn Outreach", "Background Verification", "US IT Staffing", "Visa Compliance"
+    ]
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #0d9488;
+      --secondary: #0f766e;
+      --accent: #ea580c;
+      --marketing: #7c3aed;
+      --marketing-light: #ede9fe;
+      --success: #059669;
+      --warning: #d97706;
+      --bg: #ffffff;
+      --bg-secondary: #f8fafc;
+      --text: #1f2937;
+      --text-secondary: #6b7280;
+      --border: #e5e7eb;
+      --card: #ffffff;
+      --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme="dark"] {
+      --bg: #111827;
+      --bg-secondary: #1f2937;
+      --text: #f9fafb;
+      --text-secondary: #d1d5db;
+      --border: #374151;
+      --card: #1f2937;
+      --marketing-light: #312e81;
+      --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      transition: var(--transition);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* Marketing promo strip */
+    .promo-strip {
+      background: linear-gradient(90deg, var(--marketing) 0%, var(--primary) 50%, var(--secondary) 100%);
+      color: #fff;
+      text-align: center;
+      padding: 0.65rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1001;
+      box-shadow: 0 2px 8px rgba(124, 58, 237, 0.35);
+    }
+
+    .promo-strip strong {
+      font-weight: 700;
+      color: #fef08a;
+    }
+
+    .promo-strip i {
+      margin-right: 0.35rem;
+      opacity: 0.95;
+    }
+
+    .promo-divider {
+      margin: 0 0.75rem;
+      opacity: 0.5;
+    }
+
+    .header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      position: fixed;
+      top: 40px;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+      transition: var(--transition);
+    }
+
+    .header.scrolled {
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: var(--shadow);
+    }
+
+    [data-theme="dark"] .header.scrolled {
+      background: rgba(31, 41, 55, 0.95);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .logo-avatar {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), var(--marketing));
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+      border: 2px solid var(--primary);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      transition: var(--transition);
+      font-size: 0.95rem;
+    }
+
+    .nav-links a:hover { color: var(--primary); }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: var(--text);
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+
+    .theme-toggle:hover { background: var(--bg-secondary); }
+
+    .main {
+      margin-top: 150px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 2rem;
+    }
+
+    .hero {
+      padding: 3rem 0 2rem;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+    }
+
+    .subtitle-highlight {
+      display: inline-block;
+      font-size: 1.45rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--marketing), var(--primary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1.25rem;
+      padding: 0.35rem 1rem;
+      border-radius: 999px;
+      border: 2px solid var(--marketing);
+      box-shadow: 0 4px 14px rgba(124, 58, 237, 0.2);
+    }
+
+    [data-theme="dark"] .subtitle-highlight {
+      border-color: #a78bfa;
+      box-shadow: 0 4px 14px rgba(167, 139, 250, 0.25);
+    }
+
+    .service-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.1rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      background: var(--marketing-light);
+      color: var(--marketing);
+      border: 1px solid rgba(124, 58, 237, 0.25);
+    }
+
+    [data-theme="dark"] .service-badge {
+      color: #c4b5fd;
+      border-color: #6d28d9;
+    }
+
+    .service-badge.accent-badge {
+      background: #fff7ed;
+      color: var(--accent);
+      border-color: rgba(234, 88, 12, 0.3);
+    }
+
+    [data-theme="dark"] .service-badge.accent-badge {
+      background: #431407;
+      color: #fdba74;
+    }
+
+    .service-badge i { font-size: 0.85rem; }
+
+    .hero-content .description {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+      line-height: 1.75;
+      text-align: left;
+      background: var(--card);
+      padding: 1.5rem 1.75rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--primary);
+    }
+
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+    }
+
+    .contact-item i { color: var(--primary); width: 16px; }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .social-links a:hover {
+      background: var(--primary);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .section {
+      padding: 3.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-title i { color: var(--primary); font-size: 1.5rem; }
+
+    .summary-content {
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--marketing);
+    }
+
+    .summary-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-secondary);
+    }
+
+    .achievements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .achievement-card {
+      background: var(--card);
+      padding: 1.75rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      border-left: 4px solid var(--marketing);
+    }
+
+    .achievement-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .achievement-card.featured {
+      border-left-color: var(--accent);
+      background: linear-gradient(145deg, var(--card) 0%, var(--marketing-light) 100%);
+    }
+
+    [data-theme="dark"] .achievement-card.featured {
+      background: linear-gradient(145deg, var(--card) 0%, #1e1b4b 100%);
+    }
+
+    .achievement-card .metric {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: var(--marketing);
+      margin-bottom: 0.35rem;
+    }
+
+    .achievement-card.featured .metric { color: var(--accent); }
+
+    .achievement-card .title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .achievement-card .description {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .skill-category {
+      background: var(--card);
+      padding: 1.75rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .skill-category.highlight-category {
+      border: 2px solid var(--marketing);
+      box-shadow: 0 4px 20px rgba(124, 58, 237, 0.15);
+    }
+
+    .skill-category h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .skill-category h3 i { color: var(--primary); }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skill-tag {
+      padding: 0.4rem 0.85rem;
+      background: var(--bg-secondary);
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text);
+      transition: var(--transition);
+    }
+
+    .skill-tag:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    .skill-tag.marketing-tag {
+      background: var(--marketing-light);
+      color: var(--marketing);
+      font-weight: 600;
+    }
+
+    [data-theme="dark"] .skill-tag.marketing-tag {
+      background: #312e81;
+      color: #c4b5fd;
+    }
+
+    .timeline { position: relative; padding-left: 2rem; }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(180deg, var(--marketing), var(--primary));
+      border-radius: 2px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-left: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 1.75rem;
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -2.35rem;
+      top: 1.75rem;
+      width: 14px;
+      height: 14px;
+      background: var(--marketing);
+      border-radius: 50%;
+      border: 3px solid var(--bg);
+    }
+
+    .timeline-item .role {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+
+    .timeline-item .company {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .timeline-item .duration {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    .timeline-item .description {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .timeline-item .description li {
+      margin-bottom: 0.4rem;
+      list-style-position: outside;
+      margin-left: 1.1rem;
+    }
+
+    .education-card {
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--primary);
+      max-width: 600px;
+    }
+
+    .education-card h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+
+    .education-card .school {
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .education-card .dates {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .contact-section {
+      background: linear-gradient(135deg, var(--marketing) 0%, var(--primary) 100%);
+      color: white;
+      padding: 3.5rem 2rem;
+      border-radius: 16px;
+      text-align: center;
+      margin: 2rem 0 4rem;
+    }
+
+    .contact-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-section .promo-lead {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #fef08a;
+    }
+
+    .contact-section p {
+      font-size: 1.05rem;
+      opacity: 0.95;
+      margin-bottom: 2rem;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+      font-size: 0.95rem;
+    }
+
+    .btn-primary {
+      background: white;
+      color: var(--marketing);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.15);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px);
+    }
+
+    /* Process Section */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .process-card {
+      background: var(--card);
+      padding: 2rem 1.75rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      border-top: 4px solid var(--primary);
+      position: relative;
+    }
+
+    .process-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .process-card .step-num {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--marketing), var(--primary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      opacity: 0.25;
+    }
+
+    .process-card h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      padding-right: 2rem;
+    }
+
+    .process-card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* FAQ Section */
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .faq-item:hover {
+      box-shadow: var(--shadow);
+      border-color: var(--primary);
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 1.25rem 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      transition: var(--transition);
+    }
+
+    .faq-question:hover {
+      color: var(--primary);
+    }
+
+    .faq-question i {
+      font-size: 0.9rem;
+      transition: transform 0.3s ease;
+      color: var(--text-secondary);
+    }
+
+    .faq-question * {
+      pointer-events: none;
+    }
+
+    .faq-item.active .faq-question {
+      color: var(--primary);
+    }
+
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+      color: var(--primary);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      background: var(--bg-secondary);
+    }
+
+    .faq-answer-content {
+      padding: 1.25rem 1.5rem;
+      color: var(--text-secondary);
+      font-size: 1rem;
+      line-height: 1.6;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 768px) {
+      .promo-strip { font-size: 0.8rem; padding: 0.5rem 0.75rem; line-height: 1.4; }
+      .promo-divider { display: none; }
+      .header { top: 52px; }
+      .main { margin-top: 165px; padding: 0 1rem; }
+      .nav-links { display: none; }
+      .hero-content h1 { font-size: 2.2rem; }
+      .subtitle-highlight { font-size: 1.1rem; }
+      .section-title { font-size: 1.6rem; flex-direction: column; text-align: center; }
+    }
+
+    @media print {
+      .promo-strip, .header, .theme-toggle, .social-links { display: none; }
+      .main { margin-top: 0; }
+      body { background: white; color: black; }
+    }
+  </style>
+</head>
+<body>
+  <div class="promo-strip" role="banner">
+    <i class="fas fa-briefcase"></i>
+    <strong>We are providing jobs in 30–45 days</strong>
+    <span class="promo-divider">|</span>
+    <i class="fas fa-flag-usa"></i>
+    We help <strong>USA candidates</strong> get their desired job in <strong>30–45 days</strong>
+  </div>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-avatar" aria-hidden="true">A</div>
+        <span>Akash</span>
+      </div>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#services">Services</a>
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Akash</h1>
+        <div class="subtitle-highlight">Resume Maker &amp; Marketing Specialist</div>
+
+        <div class="service-badges">
+          <span class="service-badge accent-badge">
+            <i class="fas fa-clock"></i> Jobs in 30–45 Days
+          </span>
+          <span class="service-badge">
+            <i class="fas fa-flag-usa"></i> USA Candidate Placement
+          </span>
+          <span class="service-badge">
+            <i class="fas fa-file-alt"></i> ATS-Compliant Resumes
+          </span>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Ahmedabad, India</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+918233633213" style="color:inherit;text-decoration:none;">+91 82336 33213</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:jscalesolutions@gmail.com" style="color:inherit;text-decoration:none;">jscalesolutions@gmail.com</a>
+          </div>
+        </div>
+
+        <p class="description">
+          Results-driven <strong>Resume Maker &amp; Marketing Specialist</strong> with deep experience across US Bench Sales Recruitment, IT Staffing, Career Advising, Resume Optimization, and Background Verification. Proven ability to navigate US staffing regulations, manage ATS-driven recruitment workflows, counsel job seekers, and place candidates in competitive roles. Strong expertise in ATS-compliant resume building, prime vendor relations, tax terms compliance (W2/C2C/1099), and end-to-end interview coordination.
+        </p>
+
+        <div class="social-links">
+          <a href="mailto:jscalesolutions@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://wa.me/918233633213" title="WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:+918233633213" title="Call"><i class="fas fa-phone"></i></a>
+          <a href="#contact" title="Services"><i class="fas fa-briefcase"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <h2 class="section-title">
+        <i class="fas fa-rocket"></i>
+        Placement &amp; Resume Services
+      </h2>
+      <div class="achievements-grid">
+        <div class="achievement-card featured">
+          <div class="metric">30–45</div>
+          <div class="title">Days to Your Desired Job</div>
+          <div class="description">We are providing jobs in 30–45 days — structured placement support for candidates targeting the US market.</div>
+        </div>
+        <div class="achievement-card featured">
+          <div class="metric">USA</div>
+          <div class="title">Candidates We Support</div>
+          <div class="description">We help USA candidates get their desired job in 30–45 days through resume optimization, outreach, and recruiter-ready profiles.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="metric">ATS</div>
+          <div class="title">Resume Optimization</div>
+          <div class="description">ATS-compliant resume building aligned with US staffing workflows, vendor requirements, and interview-ready formatting.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="metric">B2B</div>
+          <div class="title">US Bench Sales &amp; Outreach</div>
+          <div class="description">Lead generation, LinkedIn outreach, email campaigns, and pipeline management for the US recruitment market.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="metric">360°</div>
+          <div class="title">Career Advising</div>
+          <div class="description">Career counselling, mentorship, interview coordination, and background verification support.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="summary">
+      <h2 class="section-title">
+        <i class="fas fa-user-tie"></i>
+        Professional Summary
+      </h2>
+      <div class="summary-content">
+        <p>
+          Demonstrated ability to balance multiple priorities while delivering high-quality outcomes within tight deadlines. Adept at US staffing requirements, ATS-driven recruitment, counselling job seekers, and executing marketing outreach (LinkedIn, email, social media). Combines bench sales recruiting experience with hands-on resume and career services for candidates pursuing roles in the United States.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2 class="section-title">
+        <i class="fas fa-cogs"></i>
+        Technical &amp; Professional Skills
+      </h2>
+      <div class="skills-container">
+        <div class="skill-category highlight-category">
+          <h3><i class="fas fa-bullhorn"></i> Resume Maker &amp; Marketing</h3>
+          <div class="skill-tags">
+            <span class="skill-tag marketing-tag">Resume Building</span>
+            <span class="skill-tag marketing-tag">ATS Resume Optimization</span>
+            <span class="skill-tag marketing-tag">LinkedIn Outreach</span>
+            <span class="skill-tag marketing-tag">Email Campaigns</span>
+            <span class="skill-tag marketing-tag">Social Media Management</span>
+            <span class="skill-tag marketing-tag">Content Creation</span>
+            <span class="skill-tag marketing-tag">Canva</span>
+            <span class="skill-tag marketing-tag">US Bench Sales</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-handshake"></i> Career &amp; Recruitment</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Career Counselling</span>
+            <span class="skill-tag">Mentorship</span>
+            <span class="skill-tag">Vendor Management</span>
+            <span class="skill-tag">Client Communication</span>
+            <span class="skill-tag">Interview Coordination</span>
+            <span class="skill-tag">Background Verification</span>
+            <span class="skill-tag">Lead Generation</span>
+            <span class="skill-tag">Pipeline Management</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-passport"></i> US IT Staffing &amp; Visas</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">US Work Authorizations</span>
+            <span class="skill-tag">W2 / C2C / 1099 Contracts</span>
+            <span class="skill-tag">OPT / CPT Compliance</span>
+            <span class="skill-tag">H1B / GC Staffing</span>
+            <span class="skill-tag">Prime Vendor Network</span>
+            <span class="skill-tag">Tax Terms &amp; Compliance</span>
+            <span class="skill-tag">IT Staffing Solutions</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Technical</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Data Analysis</span>
+            <span class="skill-tag">Automation Scripting</span>
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">Ethical Hacking</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Productivity &amp; Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Google Workspace</span>
+            <span class="skill-tag">Microsoft Office</span>
+            <span class="skill-tag">Microsoft Teams</span>
+            <span class="skill-tag">Negotiation</span>
+            <span class="skill-tag">Active Listening</span>
+            <span class="skill-tag">Problem-Solving</span>
+            <span class="skill-tag">Time Management</span>
+            <span class="skill-tag">Critical Thinking</span>
+            <span class="skill-tag">Emotional Intelligence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <h2 class="section-title">
+        <i class="fas fa-route"></i>
+        Our Placement Process
+      </h2>
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="step-num">01</div>
+          <h3>Consultation &amp; Strategy</h3>
+          <p>We analyze your experience, visa status, and career goals to map out a targeted US staffing and placement roadmap.</p>
+        </div>
+        <div class="process-card">
+          <div class="step-num">02</div>
+          <h3>ATS Resume Optimization</h3>
+          <p>We craft your resume with standard formatting and key industry terms so it scores high on recruitment software and client screeners.</p>
+        </div>
+        <div class="process-card">
+          <div class="step-num">03</div>
+          <h3>Interview Prep &amp; Mocks</h3>
+          <p>We conduct interactive mock interviews, tech screenings, and communication reviews to prepare you for direct vendor and client calls.</p>
+        </div>
+        <div class="process-card">
+          <div class="step-num">04</div>
+          <h3>Bench Sales &amp; Outreach</h3>
+          <p>We submit your profile to prime vendors and launch targeted email and LinkedIn campaigns across our extensive recruiter network.</p>
+        </div>
+        <div class="process-card">
+          <div class="step-num">05</div>
+          <h3>Coordination &amp; Placement</h3>
+          <p>We manage all communications, coordinate interviews, support you through offer negotiations, and secure your placement in 30–45 days.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <h2 class="section-title">
+        <i class="fas fa-question-circle"></i>
+        Frequently Asked Questions
+      </h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Which work authorizations do you support?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              We work with all major US work authorizations, including OPT, CPT, H1B, H4-EAD, L2-EAD, Green Card holders, and US Citizens. We ensure all visa-specific staffing and tax guidelines (W2, C2C, 1099) are fully met.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>How does the 30–45 day placement process work?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              By optimizing your resume for ATS and immediately marketing it to our active network of US prime vendors and recruiters, we fast-track the submission and screening loops to secure interview calls and offers quickly.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>What is an ATS-optimized resume?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              An ATS (Applicant Tracking System) optimized resume uses structured layouts, standard fonts, clear headings, and targeted keywords matching the job description. This ensures your resume successfully passes automated screening systems and reaches human recruiters.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>What IT domains and technologies do you specialize in?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              We specialize across key IT domains including Full Stack Software Engineering (Java, .NET, Python, Node), Cloud &amp; DevOps Engineering, Data Engineering &amp; Analytics, Quality Assurance &amp; Automation, Salesforce, Business Analysis, and Project Management.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2>Ready for Your Next US Role?</h2>
+      <p class="promo-lead">We help USA candidates get their desired job in 30–45 days.</p>
+      <p>
+        Connect for ATS-optimized resumes, career advising, and US bench sales recruitment support. Let's build a profile that gets you noticed by recruiters and clients.
+      </p>
+      <div class="contact-buttons">
+        <a href="mailto:jscalesolutions@gmail.com" class="btn btn-primary">
+          <i class="fas fa-envelope"></i> Send Email
+        </a>
+        <a href="https://wa.me/918233633213" class="btn btn-secondary" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="tel:+918233633213" class="btn btn-secondary">
+          <i class="fas fa-phone"></i> Call Now
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+      themeToggle.innerHTML = isDark ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('.header');
+      if (window.scrollY > 80) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.section, .achievement-card, .timeline-item, .skill-category, .process-card, .faq-item').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        const answer = faqItem.querySelector('.faq-answer');
+        const isActive = faqItem.classList.contains('active');
+        
+        // Close all other FAQ items
+        document.querySelectorAll('.faq-item').forEach(item => {
+          item.classList.remove('active');
+          item.querySelector('.faq-answer').style.maxHeight = null;
+          item.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+
+        if (!isActive) {
+          faqItem.classList.add('active');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+          button.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
